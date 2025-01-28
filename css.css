@@ -266,3 +266,292 @@ body {
     max-height: 58%;
   }
 }
+
+.slide5 {
+  background-color: #000000;
+  padding-inline: 40px;
+  padding: 50px;
+
+  .slide5-text {
+    font-family: cirka;
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .slide5-menu {
+    box-sizing: border-box;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+    align-items: flex-start;
+    overflow: scroll;
+    scrollbar-width: none;
+
+    .menu-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .content-1 {
+      max-width: 20%;
+      height: auto;
+      padding: 60px 60px 0px 40px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url(https://web-images.credcdn.in/v2/_next/assets/images/landing/desktop/scan-n-pay.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        font-family: sans-serif;
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .content-2 {
+      max-width: 20%;
+      height: 75vh;
+      padding: 60px 60px 0px 40px;
+      margin-left: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url("./assests/upi-payments.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background-color: transparent;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        margin-top: 20px;
+        background: rgba(0, 0, 0, 0.5);
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .content-3 {
+      max-width: 20%;
+      height: 75vh;
+      padding: 60px 60px 0px 40px;
+      margin-left: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url("./assests/tap-n-pay.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        margin-top: 20px;
+
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: denton;
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .content-4 {
+      max-width: 20%;
+      height: 75vh;
+      padding: 60px 60px 0px 40px;
+      margin-left: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url(./assests/paybeam.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: sans-serif;
+        margin-top: 20px;
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .content-5 {
+      max-width: 20%;
+      height: 75vh;
+      padding: 60px 60px 0px 40px;
+      margin-left: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url("./assests/car.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: sans-serif;
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .content-6 {
+      max-width: 20%;
+      height: 75vh;
+      padding: 60px 60px 0px 40px;
+      margin-left: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-image: url("./assests/escapes.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex: 0 0 30%;
+
+      .snp-logo {
+        height: 30px;
+      }
+
+      .menu-text {
+        font-family: gilroy;
+        margin-top: 20px;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .knowmore {
+        display: flex;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.5);
+        font-family: sans-serif;
+        margin-top: 20px;
+
+        .arrow {
+          width: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
