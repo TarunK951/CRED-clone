@@ -1,3 +1,4 @@
+// line by line effect
 const storyLines = document.querySelectorAll('.story p');
 
       // Function to handle the scroll effect
@@ -24,3 +25,12 @@ const storyLines = document.querySelectorAll('.story p');
       // Initial call to apply the effect on page load
 handleScroll();
       
+// expand
+document.getElementById("expandBtn").addEventListener("click", function () {
+  document.getElementById("expandableContent").classList.toggle("expanded");
+});
+ 
+
+
+ 
+
