@@ -29,7 +29,26 @@ handleScroll();
 document.getElementById("expandBtn").addEventListener("click", function () {
   document.getElementById("expandableContent").classList.toggle("expanded");
 });
+
+
+
+document.querySelectorAll(".faq-question").forEach((button) => {
+    button.addEventListener("click", function () {
+        const faqItem = this.parentElement;
+        faqItem.classList.toggle("active");
+
+        // Close other FAQs when opening a new one
+        document.querySelectorAll(".faq-item").forEach((item) => {
+            if (item !== faqItem) {
+                item.classList.remove("active");
+            }
+        });
+    });
+});
  
+
+
+
 
 
  
