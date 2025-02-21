@@ -12,6 +12,7 @@
     <!--slide ...................--------->
     
     <div class="main-container">
+      <!-- slide ----1..... -->
       <div class="slide1">
         <!-- video content-->
         <video class="slide1-video" autoplay loop muted playsinline>
@@ -31,7 +32,7 @@
                   <button class="money">MONEY</button>
                 </div>
                 <div>
-                  <button>
+                  <button id="reDirect">
                     <img
                       src="./assests/menu-icon.png"
                       class="menu-icon"
@@ -56,6 +57,9 @@
           </div>
         </content>
       </div>
+
+       
+
       <!--QR ........Scan ......-->
       <div class="qr-scan">
         <img src="./assests/qr-final.png" alt="" class="qr" />
@@ -313,12 +317,18 @@
         </div>
 <!-- slide--10..................... -->
         <div class="slide10">
-            <div class="container10">
-              <div class="open-text">
-                <p>F A Q<span> S</span> <img src="./assests/down-arrow.webp" alt=""> </p>
-              </div>
-              
-            </div>
+            <div id='open-text'>
+        <button id="open-btn" class="open-btn" onclick="opener">F A Q<span> S</span> <img src="./assests/down-arrow.webp" alt=""></button>
+    </div>
+    <div  class="inside"  id="inside" >
+        <h1>we have done it</h1>
+        <p>This is some additional content within the opner div.</p> <p>You can add more elements here.</p>
+        <ul id="faq-list">
+            <li>Question 1: Answer 1</li>
+            <li>Question 2: Answer 2</li>
+            <li>Question 3: Answer 3</li>
+        </ul>
+    </div>
           </div>
 
 <!-- slide--11.....................  -->
